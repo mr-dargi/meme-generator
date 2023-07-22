@@ -22,3 +22,31 @@
   font-family: Inter;
   font-size: 12px;
 }
+
+.meme {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 26px;
+}
+
+.meme-inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.meme-inputs > input {
+  width: 49%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
+
+.meme-button {
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+}
