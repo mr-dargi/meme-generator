@@ -50,7 +50,12 @@ export default function Meme() {
         />
       </div>
       <button className="meme-button" onClick={generate_random_meme}>Get a new meme image  🖼</button>
-      {meme.randomImage && <img src={meme.randomImage} className="meme-img" />}
+      <div className="meme-img-section">
+            {meme.randomImage && <img src={meme.randomImage} className="meme-img" />}
+            <h2 className="meme-text top">{meme.topText}</h2>
+            <h2 className="meme-text bottom">{meme.bottomText}</h2>
+      </div>
+
     </div>
   )
 }
